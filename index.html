@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanceláře Marešova vila | Pronájem kanceláří ve Znojmě</title>
+  <meta name="description" content="Pronájem kanceláří v přízemí Marešovy vily ve Znojmě. Tři místnosti, kuchyňka a WC. Ideální pro advokátní kancelář nebo menší firmu.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="#" class="logo">Marešova vila</a>
+      <ul class="nav-links">
+        <li><a href="#prostory">Prostory</a></li>
+        <li><a href="#informace">Informace</a></li>
+        <li><a href="#cena">Cena</a></li>
+        <li><a href="#lokalita">Lokalita</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-content">
+        <p class="hero-label">Kanceláře k pronájmu</p>
+        <h1>Marešova vila<br>ve Znojmě</h1>
+        <p class="hero-desc">Tři kanceláře v přízemí historické vily. Inspirativní prostředí, které už vnuklo nejeden dobrý nápad.</p>
+        <a href="#kontakt" class="btn btn-primary">Mám zájem</a>
+      </div>
+    </section>
+
+    <!-- Fotky prostor -->
+    <section id="prostory" class="section gallery">
+      <h2 class="section-title">Prostory</h2>
+      <p class="section-intro">Prohlédněte si kanceláře a zázemí v přízemí Marešovy vily.</p>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-item--large">
+          <img src="img/outside-garden.png" alt="Exteriér Marešovy vily a zahrada">
+          <span class="gallery-caption">Exteriér a zahrada</span>
+        </div>
+        <div class="gallery-item">
+          <img src="img/office1.jpeg" alt="Kancelář 1">
+          <span class="gallery-caption">Kancelář 1</span>
+        </div>
+        <div class="gallery-item">
+          <img src="img/office2.jpeg" alt="Kancelář 2">
+          <span class="gallery-caption">Kancelář 2</span>
+        </div>
+        <div class="gallery-item">
+          <img src="img/office3.jpeg" alt="Kancelář 3">
+          <span class="gallery-caption">Kancelář 3</span>
+        </div>
+        <div class="gallery-item">
+          <img src="img/kitchen.jpeg" alt="Kuchyňka">
+          <span class="gallery-caption">Kuchyňka</span>
+        </div>
+        <div class="gallery-item">
+          <img src="img/hall.jpeg" alt="Chodba">
+          <span class="gallery-caption">Chodba</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Informace o prostorách -->
+    <section id="informace" class="section info">
+      <h2 class="section-title">Informace o prostorách</h2>
+      <div class="info-grid">
+        <div class="info-card">
+          <div class="info-icon">3</div>
+          <h3>Kanceláře</h3>
+          <p>Tři samostatné kanceláře různých velikostí – od 2 do 5 pracovních míst. Každá má vlastní okno a klimatizaci Sinclair. Vhodné pro advokátní kancelář, realitní kancelář nebo menší firmu.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">🍳</div>
+          <h3>Kuchyňka</h3>
+          <p>Plně vybavená kuchyňka s lednicí, mikrovlnkou a kávovarem. Ideální pro občerstvení během pracovního dne.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">🚿</div>
+          <h3>WC</h3>
+          <p>Samostatné sociální zařízení v přízemí, přístupné pouze pro nájemce kanceláří.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">🅿️</div>
+          <h3>Parkování</h3>
+          <p>Parkování u silnice okolo vily. Nejbližší parkoviště je u Znojemského stadionu.</p>
+        </div>
+      </div>
+      <div class="info-details">
+        <h3>Technické parametry</h3>
+        <ul>
+          <li><strong>Celková plocha:</strong> cca 85 m²</li>
+          <li><strong>Vytápění:</strong> ústřední</li>
+          <li><strong>Klimatizace:</strong> v každé kanceláři samostatná Sinclair</li>
+          <li><strong>Internet:</strong> připojený a připravený k použití</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Cena / podmínky -->
+    <section id="cena" class="section pricing">
+      <h2 class="section-title">Cena a podmínky</h2>
+      <p class="section-intro">Pronajměte si celé přízemí nebo jen vybranou kancelář.</p>
+
+      <div class="pricing-grid">
+        <div class="pricing-card pricing-card--small">
+          <div class="pricing-header">
+            <h3>Kancelář 1</h3>
+            <p class="pricing-note">Nejmenší, 2–3 pracovní místa</p>
+          </div>
+          <div class="pricing-amount">
+            <span class="price">4 000</span>
+            <span class="currency">Kč</span>
+            <span class="period">/ měsíc</span>
+          </div>
+          <ul class="pricing-features">
+            <li>Klimatizace Sinclair</li>
+            <li>Kuchyňka</li>
+            <li>WC</li>
+          </ul>
+          <a href="#kontakt" class="btn btn-secondary">Poptat pronájem</a>
+        </div>
+
+        <div class="pricing-card pricing-card--small">
+          <div class="pricing-header">
+            <h3>Kancelář 2</h3>
+            <p class="pricing-note">Střední, 4 pracovní místa</p>
+          </div>
+          <div class="pricing-amount">
+            <span class="price">5 500</span>
+            <span class="currency">Kč</span>
+            <span class="period">/ měsíc</span>
+          </div>
+          <ul class="pricing-features">
+            <li>Klimatizace Sinclair</li>
+            <li>Kuchyňka</li>
+            <li>WC</li>
+          </ul>
+          <a href="#kontakt" class="btn btn-secondary">Poptat pronájem</a>
+        </div>
+
+        <div class="pricing-card pricing-card--small">
+          <div class="pricing-header">
+            <h3>Kancelář 3</h3>
+            <p class="pricing-note">Největší, 4–5 pracovních míst</p>
+          </div>
+          <div class="pricing-amount">
+            <span class="price">6 500</span>
+            <span class="currency">Kč</span>
+            <span class="period">/ měsíc</span>
+          </div>
+          <ul class="pricing-features">
+            <li>Klimatizace Sinclair</li>
+            <li>Kuchyňka</li>
+            <li>WC</li>
+          </ul>
+          <a href="#kontakt" class="btn btn-secondary">Poptat pronájem</a>
+        </div>
+      </div>
+
+      <div class="pricing-card pricing-card--full">
+        <div class="pricing-header">
+          <h3>Pronájem celého přízemí</h3>
+          <p class="pricing-note">Všechny tři kanceláře + kuchyňka + WC</p>
+        </div>
+        <div class="pricing-amount">
+          <span class="price">15 000</span>
+          <span class="currency">Kč</span>
+          <span class="period">/ měsíc</span>
+        </div>
+        <ul class="pricing-features">
+          <li>3 kanceláře s klimatizací Sinclair</li>
+          <li>Kuchyňka</li>
+          <li>WC</li>
+          <li>Parkování v okolí vily</li>
+          <li>Úklid společných prostor</li>
+        </ul>
+        <p class="pricing-disclaimer">* Ceny jsou orientační. Konečná cena dle dohody a rozsahu pronájmu.</p>
+        <a href="#kontakt" class="btn btn-primary">Poptat pronájem</a>
+      </div>
+      <div class="conditions">
+        <h3>Podmínky pronájmu</h3>
+        <ul>
+          <li>Minimální doba pronájmu: 12 měsíců</li>
+          <li>Kauce: 2 měsíční nájemné</li>
+          <li>Možnost individuální dohody</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Lokalita -->
+    <section id="lokalita" class="section location">
+      <h2 class="section-title">Lokalita</h2>
+      <div class="location-content">
+        <div class="location-text">
+          <p>Marešova vila se nachází v klidné části Znojma, v docházkové vzdálenosti od centra města. Inspirativní prostředí, které už vnuklo nejeden dobrý nápad. Okolí nabízí klidné zázemí vhodné pro koncentrovanou práci.</p>
+          <ul class="location-features">
+            <li>Na Vyhlídce 1590/4, 669 02 Znojmo 2</li>
+            <li>Centrum Znojma cca 10 min pěšky</li>
+            <li>Parkování u silnice nebo u Znojemského stadionu</li>
+            <li>Klidná rezidenční čtvrť</li>
+          </ul>
+        </div>
+        <div class="location-map">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d679.9590881691581!2d16.044172263987313!3d48.85892486396041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d550ec6299951%3A0x22cd9c7681029f2c!2seValue!5e1!3m2!1scs!2scz!4v1772796246057!5m2!1scs!2scz" 
+            width="100%" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Mapa - Marešova vila Znojmo">
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section id="kontakt" class="section contact">
+      <h2 class="section-title">Kontakt</h2>
+      <p class="section-intro">Máte zájem o pronájem? Ozvěte se nám.</p>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Telefon</h3>
+          <a href="tel:+420123456789">+420 123 456 789</a>
+        </div>
+        <div class="contact-card">
+          <h3>E-mail</h3>
+          <a href="mailto:pronajem@maresova-vila.cz">pronajem@maresova-vila.cz</a>
+        </div>
+        <div class="contact-card">
+          <h3>Adresa</h3>
+          <p>Na Vyhlídce 1590/4<br>669 02 Znojmo 2</p>
+        </div>
+      </div>
+      <form class="contact-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Jméno</label>
+            <input type="text" id="name" name="name" required placeholder="Vaše jméno">
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required placeholder="vas@email.cz">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="phone">Telefon</label>
+          <input type="tel" id="phone" name="phone" placeholder="+420 123 456 789">
+        </div>
+        <div class="form-group">
+          <label for="message">Zpráva</label>
+          <textarea id="message" name="message" rows="4" placeholder="Napište nám o vašem zájmu o pronájem..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Odeslat zprávu</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Marešova vila – Kanceláře k pronájmu ve Znojmě</p>
+    <p class="footer-author">Web vytvořila <a href="https://evalue.group" target="_blank" rel="noopener noreferrer">eValue.group</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
